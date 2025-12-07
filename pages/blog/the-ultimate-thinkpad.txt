@@ -1,0 +1,222 @@
+iThe Ultimate Thinkpad		localhost	70
+iBuilding the ultimate Gentoo music ThinkPad from a T540P		localhost	70
+i2025-12-05 18:04		localhost	70
+i[!TAG_ENTRIES]		localhost	70
+i# The Ultimate ThinkPad		localhost	70
+iSince my foray into Linux some 5 or 6 years ago, ThinkPads (specifically the big, the bulky, the **ancient** ThinkPads) have always eluded me. I started on my desktop gaming PC, which, if I remember correctly, rocked a Ryzen 5 3600 with 16GB of RAM, a 1TB SSD, and an RX 590 (later upgraded to an RX 6800XT—man, I loved that card).		localhost	70
+iAs my formal education progressed, the need for a mobile platform grew. I picked up an Acer Aspire laptop with what I think was a 5th gen Ryzen mobile chip. It was a solid machine and did what I needed it to do.		localhost	70
+iAbout a year later, however, I had a massive tonal shift in my technology, starting with an iPhone 15 Pro.		localhost	70
+iThis relit the kid in me—the kid who loved Apple. I remember getting so excited to visit Apple Stores when I was small.		localhost	70
+iI had moved away from them mostly due to herd mentality, as I see now. I realised this when getting the iPhone 15 Pro... I had never actually given them an honest chance with a modern product.		localhost	70
+iIt was the software for me, the design, the consistency (although they fumbled that shortly after with the universal 26 OS update, "Tahoe", Liquid Glass—which I actually really liked the design of, but my oh my was it buggy).		localhost	70
+iHaving used the iPhone for a while, and as my laptop needs grew while my desktop PC needs diminished, I went all-in with a MacBook Air M2.		localhost	70
+iThis was the end for me and Linux.		localhost	70
+iSure, Asahi is a project, and it does work—I even used it! But the experience was, understandably, worse than macOS. The whole reason I had chosen an Apple laptop was for the integration and consistency of the ecosystem, which I forewent for the sake of Linux.		localhost	70
+iFast forward to today, and I pulled the trigger. It's been years, the whole `Wayland` vs `Xorg` fiasco has come and gone, people have been polarised, and `Wayland` will lead us into the future. It feels like the Star Wars OT now: `Wayland` and `Xorg` had a big fight, turmoil, deception, and then `Wayland` won. Now there's peace, freedom, justice, and security.		localhost	70
+iNot saying that `Wayland` is as evil as the Galactic Empire—those thoughts are for a different post. I'm just saying that `Wayland` is the future, and it's time to move on from `Xorg`.		localhost	70
+iSo, in this calm Linux-scape we now find ourselves in, I think it's time I return to the promised land. Properly this time.		localhost	70
+iIt's not the worshipped **T480**, or the highly regarded **T440P**. It's the larger, bulkier, more industrial cousin to both of them.		localhost	70
+iIt's the **T540P**.		localhost	70
+iI chose this for a very specific reason... **Cooling**.		localhost	70
+iThe **T540P** is slightly thicker than the **T440P** and much larger too, allowing more air to move around inside the chassis. This is critical, not because of the workloads I'm giving it, but because of the chip I'm shoving inside it.		localhost	70
+iAlso, the **T540P** comes with a slower **i5-4300**, which is actually ideal for me since I'm replacing the CPU, which you'll see in a moment, and so I can save quite a significant chunk of change. The **T540P** cost me **half** of what the **T440P** would've.		localhost	70
+iAnd for that new CPU, I present to you, straight from the mystical promised land of China, couriered to my doorstep by the fabled AliExpress...		localhost	70
+i**A PGA-Adapted Core i7-4980HQ**.		localhost	70
+iThis chip cost me as much as the whole **T540P**, but my oh my was it worth it. Just to have something like this is cool, but to have it in a **T540P** chassis is even better.		localhost	70
+iThis chip has a massive **47W** TDP. It's 4C, 8T @ 4.0GHz—an absolute unit. The very same chip was featured in the MacBook Pro in 2014 and 2015. Yes, my **T540P** is now a **MacBook Pro** from 10 years ago. When it was used in the MacBook Pro, however, it was a BGA (Ball-Grid-Array) chip. Theoretically, it works with anything Haswell, so finding them with PGA adapter boards is not too hard, especially due to the emergent subculture nursed by its usage and now e-waste abundance in old MacBooks and their demand for today's usage in ThinkPads. They're few and far between, but not impossible.		localhost	70
+iAnd I got one!		localhost	70
+iThat chip means I need all the cooling room I can muster. I will also be tweaking the kernel and undervolting it to keep it in check, and I have a more capable heatsink to use.		localhost	70
+iObviously, this **T540P** is not remaining stock. I have:		localhost	70
+i- A PGA-adapted Core i7-4980HQ		localhost	70
+i- A more capable heatsink from a version of the laptop which had a dGPU.		localhost	70
+i- A new pair of 2x8GB PC3L-12800S RAM modules, Samsung.		localhost	70
+iAnd that's it for now. Tame. I wanted to keep the initial build small in case the whole thing fails. If it succeeds, however, I'll add in some luxuries, such as a (much) better trackpad, 9-cell battery, backlit keyboard, newer SSD, and a FHD IPS screen.		localhost	70
+iObviously, out of the four Linux distributions that actually matter: Debian, RHEL, Arch, and Gentoo—Gentoo is the only one suitable for this build.		localhost	70
+iIt's also my favourite.		localhost	70
+iThe current stack is as follows:		localhost	70
+i- Gentoo Linux		localhost	70
+i  - OpenRC		localhost	70
+i- WindowMaker		localhost	70
+i  - Xorg		localhost	70
+iDidn't I just say the world has moved on to `Wayland`? Yeah... Yeah I did. But `Xorg` has that retro charm that you just can't get with `Wayland`.		localhost	70
+iI'll also be using a customised kernel to keep the chip in check and extend the battery life. I would really love to have this laptop last long enough to justify using it for college one day. That would be sick.		localhost	70
+i# The Video		localhost	70
+iThis section is now moving into the video of me building the laptop, which you can view [!EXTERNAL] [here](!TODO).		localhost	70
+iUnbox all the parts prior to recording, open with a shot of the desk with the laptop upside-down, the parts laid out around, and the iFixIt kit.		localhost	70
+iThe lighting should start off as warm, and I should be wearing normal clothing.		localhost	70
+iSnap transition to purple lighting and a more Gentoo-like outfit (you know what I mean).		localhost	70
+iBegin by deconstructing the laptop, placing all parts to be replaced out-of-frame.		localhost	70
+iBring each new part up to the camera, and show the process of installation.		localhost	70
+iFinish by putting the laptop back together, and showing the finished product.		localhost	70
+iPlug in the Ventoy drive, and boot into LMDE.		localhost	70
+iIf successful, thumbs up and move on to the next scene.		localhost	70
+iBegin by opening terminal and the browser either-side, and go to this page.		localhost	70
+iUse `lsblk` and `cfdisk` to partition the disks:		localhost	70
+i- 256MB EFI partition		localhost	70
+i- 2GB Swap partition		localhost	70
+i- Remaining space for root partition		localhost	70
+iAfterwards there should be:		localhost	70
+i- /dev/sda1 - EFI Partition		localhost	70
+i- /dev/sda2 - Swap Partition		localhost	70
+i- /dev/sda3 - Root Partition		localhost	70
+iInitialise the filesystems:		localhost	70
+imkfs.fat -F 32 /dev/sda1		localhost	70
+imkswap /dev/sda2		localhost	70
+imkfs.ext4 /dev/sda3		localhost	70
+iCreate the mountpoints:		localhost	70
+imkdir --parents /mnt/gentoo		localhost	70
+iMount the root partition and activate the swap partition:		localhost	70
+imount /dev/sda3 /mnt/gentoo		localhost	70
+iswapon /dev/sda2		localhost	70
+iMount the EFI partition:		localhost	70
+imount --mkdir /dev/sda1 /mnt/gentoo/efi		localhost	70
+iNavigate to the installation directory:		localhost	70
+icd /mnt/gentoo		localhost	70
+iOpen the Gentoo [!EXTERNAL] [downloads page](https://www.gentoo.org/downloads/) and download the latest stage3 tarball.		localhost	70
+iExtract the stage3 tarball:		localhost	70
+itar --xpvf ~/Downloads/stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner -C /mnt/gentoo		localhost	70
+iInstall `arch-chroot` and `genfstab`:		localhost	70
+isudo apt install arch-install-scripts		localhost	70
+iChroot into the new system:		localhost	70
+iarch-chroot /mnt/gentoo		localhost	70
+iReminder that we're in a chroot:		localhost	70
+iexport PS1="(chroot) $PS1"		localhost	70
+iEmerge `vim`:		localhost	70
+iemerge app-editors/vim		localhost	70
+iReplace the `/etc/portage/make.conf` file with the following:		localhost	70
+iCOMMON_FLAGS="-O2 -pipe -fomit-frame-pointer -march=native"		localhost	70
+iCFLAGS="${COMMON_FLAGS}"		localhost	70
+iCXXFLAGS="${COMMON_FLAGS}"		localhost	70
+iFCFLAGS="${COMMON_FLAGS}"		localhost	70
+iRUSTFLAGS="${COMMON_FLAGS} -C target-cpu=native"		localhost	70
+i		localhost	70
+iMAKEOPTS="-j8 -l8"		localhost	70
+i		localhost	70
+iUSE="-systemd -gnome -kde -wayland -accessibility \		localhost	70
+i     -doc -man -handbook -test -examples \		localhost	70
+i     -pipewire -pulseaudio -screencast \		localhost	70
+i     X alsa vaapi dbus acpi usb git lto bluetooth \		localhost	70
+i     udev x264 x265 mp3 flac vorbis opus \		localhost	70
+i     grub"		localhost	70
+i		localhost	70
+iFEATURES="nodoc noinfo noman"		localhost	70
+i		localhost	70
+iVIDEO_CARDS="intel crocus"		localhost	70
+iINPUT_DEVICES="libinput synaptics"		localhost	70
+iACCEPT_LICENSE="-* @FREE @BINARY-REDISTRIBUTABLE"		localhost	70
+i		localhost	70
+iEMERGE_DEFAULT_OPTS="-av --with-bdeps=y"		localhost	70
+iGenerate the fstab:		localhost	70
+igenfstab -U /mnt/gentoo >> /etc/fstab		localhost	70
+iInstall the kernel sources & firmware:		localhost	70
+iemerge sys-kernel/gentoo-sources sys-kernel/linux-firmware sys-apps/pciutils		localhost	70
+iList available kernels:		localhost	70
+ieselect kernel list		localhost	70
+iSelect the latest stable kernel:		localhost	70
+ieselect kernel set 1		localhost	70
+iNavigate to the kernel directory:		localhost	70
+icd /usr/src/linux		localhost	70
+iPlug in everything that will possibly be used, and unplug everything that will not.		localhost	70
+iThis could be mice, keyboards, headphones, usb drives (should already be loaded), bluetooth devices.		localhost	70
+iMake the locale built-in config:		localhost	70
+imake localyesconfig		localhost	70
+iMake the menuconfig:		localhost	70
+imake menuconfig		localhost	70
+iVerify these options:		localhost	70
+iGeneral setup.		localhost	70
+i[*] POSIX Access Control Lists                                  (CONFIG_FS_POSIX_ACL)		localhost	70
+i[*] Control Group support                                       (CONFIG_CGROUPS)		localhost	70
+i[*] Namespaces support                                          (CONFIG_NAMESPACES)		localhost	70
+i    [*] User namespace                                          (CONFIG_USER_NS)		localhost	70
+i[*] Configure standard kernel features (expert users)           (CONFIG_EXPERT)		localhost	70
+i    [ ] Load all symbols for debugging/ksymoops                 (CONFIG_KALLSYMS - Disable for speed/size)		localhost	70
+i		localhost	70
+iProcessor type and features.		localhost	70
+i    Processor family (Haswell)                                  (CONFIG_MCORE2)		localhost	70
+i[*] Multi-core scheduler support                                (CONFIG_SCHED_MC)		localhost	70
+i    Preemption Model (Voluntary Kernel Preemption (Desktop))    (CONFIG_PREEMPT_VOLUNTARY)		localhost	70
+i    Timer frequency (300 HZ)                                    (CONFIG_HZ_300)		localhost	70
+i[*] Tickless System (Dynamic Ticks)                             (CONFIG_NO_HZ)		localhost	70
+i    (X) Idle dynticks system (NO_HZ_IDLE)                       (CONFIG_NO_HZ_IDLE)		localhost	70
+i[*] EFI runtime service support                                 (CONFIG_EFI)		localhost	70
+i[*] EFI stub support                                            (CONFIG_EFI_STUB)		localhost	70
+i[*] MTRR (Memory Type Range Register) support                   (CONFIG_MTRR)		localhost	70
+i		localhost	70
+iPower management and ACPI options.		localhost	70
+i[*] ACPI (Advanced Configuration and Power Interface) Support   (CONFIG_ACPI)		localhost	70
+i    [*] Battery                                                 (CONFIG_ACPI_BATTERY)		localhost	70
+i    [*] Video                                                   (CONFIG_ACPI_VIDEO)		localhost	70
+i    [*] Button                                                  (CONFIG_ACPI_BUTTON)		localhost	70
+i    CPU Frequency scaling		localhost	70
+i        Default CPUFreq governor (powersave)                    (CONFIG_CPU_FREQ_GOV_POWERSAVE)		localhost	70
+i        x86 CPU Frequency scaling drivers		localhost	70
+i            [*] Intel P state control                           (CONFIG_X86_INTEL_PSTATE)		localhost	70
+i		localhost	70
+iNetworking.		localhost	70
+i[*] Wireless                                                    (CONFIG_WIRELESS)		localhost	70
+i    [*] cfg80211 - wireless configuration API                   (CONFIG_CFG80211)		localhost	70
+i    [*] Generic IEEE 802.11 Networking Stack (mac80211)         (CONFIG_MAC80211)		localhost	70
+i[*] Bluetooth subsystem support                                 (CONFIG_BT)		localhost	70
+i    Bluetooth device drivers		localhost	70
+i        [*] HCI USB driver                                      (CONFIG_BT_HCIBTUSB)		localhost	70
+i		localhost	70
+iDevice drivers.		localhost	70
+i    Network device support		localhost	70
+i        [*] Ethernet driver support		localhost	70
+i            [*] Intel devices		localhost	70
+i                [*] Intel(R) PRO/1000 PCI-Express Gigabit       (CONFIG_E1000E)		localhost	70
+i		localhost	70
+i    Multimedia support                                          (CONFIG_MEDIA_SUPPORT)		localhost	70
+i        [*] Cameras/video grabbers support		localhost	70
+i            Media drivers		localhost	70
+i                [*] Media USB Adapters		localhost	70
+i                    [*] USB Video Class (UVC)                   (CONFIG_USB_VIDEO_CLASS)		localhost	70
+i		localhost	70
+i    Graphics support		localhost	70
+i        [*] Direct Rendering Manager (DRM)                      (CONFIG_DRM)		localhost	70
+i        [*] Intel 8xx/9xx/G3x/G4x/HD Graphics                   (CONFIG_DRM_I915)		localhost	70
+i		localhost	70
+i    Sound card support		localhost	70
+i        [*] Advanced Linux Sound Architecture                   (CONFIG_SND)		localhost	70
+i            [*] HD-Audio                                        (CONFIG_SND_HDA_INTEL)		localhost	70
+i                [*] Build Realtek HD-audio codec support        (CONFIG_SND_HDA_CODEC_REALTEK)		localhost	70
+i                [*] Build HDMI/DisplayPort HD-audio codec       (CONFIG_SND_HDA_CODEC_HDMI)		localhost	70
+i            [*] USB sound devices		localhost	70
+i                [*] USB Audio/MIDI driver                       (CONFIG_SND_USB_AUDIO)		localhost	70
+i		localhost	70
+i    Input device support		localhost	70
+i        [*] Mice		localhost	70
+i            [*] PS/2 mouse                                      (CONFIG_MOUSE_PS2)		localhost	70
+i                [*] Synaptics PS/2 mouse protocol               (CONFIG_MOUSE_PS2_SYNAPTICS)		localhost	70
+i		localhost	70
+i    Hardware Monitoring support		localhost	70
+i        [*] Intel Core/Core2/Atom temperature sensor            (CONFIG_SENSORS_CORETEMP)		localhost	70
+i        [*] ACPI Thermal Model                                  (CONFIG_SENSORS_ACPI_POWER)		localhost	70
+i		localhost	70
+i    USB support		localhost	70
+i        [*] xHCI HCD (USB 3.0) support                          (CONFIG_USB_XHCI_HCD)		localhost	70
+i        [*] EHCI HCD (USB 2.0) support                          (CONFIG_USB_EHCI_HCD)		localhost	70
+i		localhost	70
+i    MMC/SD/SDIO card support		localhost	70
+i        [*] Realtek PCI-E SD/MMC Card Interface Driver          (CONFIG_MMC_REALTEK_PCI)		localhost	70
+i		localhost	70
+i    X86 Platform Specific Device Drivers		localhost	70
+i        [*] ThinkPad ACPI Laptop Extras                         (CONFIG_THINKPAD_ACPI)		localhost	70
+i            [*] Console audio control ALSA interface            (CONFIG_THINKPAD_ACPI_ALSA_SUPPORT)		localhost	70
+i		localhost	70
+iFile systems.		localhost	70
+i    [*] The Extended 4 (ext4) filesystem                        (CONFIG_EXT4_FS)		localhost	70
+i    [*] Btrfs filesystem support                                (CONFIG_BTRFS_FS)		localhost	70
+i    		localhost	70
+i    CD-ROM/DVD Filesystems		localhost	70
+i        [*] ISO 9660 CDROM file system support                  (CONFIG_ISO9660_FS)		localhost	70
+i        [*] Microsoft Joliet CDROM extensions                   (CONFIG_JOLIET)		localhost	70
+i        [*] UDF file system support                             (CONFIG_UDF_FS)		localhost	70
+i		localhost	70
+i    DOS/FAT/EXFAT/NT Filesystems		localhost	70
+i        [*] MSDOS fs support                                    (CONFIG_MSDOS_FS)		localhost	70
+i        [*] VFAT (Windows-95) fs support                        (CONFIG_VFAT_FS)		localhost	70
+i        [*] exFAT filesystem support                            (CONFIG_EXFAT_FS)		localhost	70
+i        [*] NTFS file system support                            (CONFIG_NTFS_FS)		localhost	70
+iMake the kernel & install:		localhost	70
+imake -j$(nproc) && make modules_install && make install		localhost	70

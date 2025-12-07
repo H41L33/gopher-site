@@ -1,0 +1,5 @@
+iBlog		localhost	70
+i07/12/2025 18:02		localhost	70
+i# Blog		localhost	70
+iHere are my latest thoughts.		localhost	70
+i{{ nav_collection }}		localhost	70

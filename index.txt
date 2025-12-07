@@ -1,0 +1,17 @@
+iWelcome		localhost	70
+iWelcome to my website.		localhost	70
+i07/12/2025 18:04		localhost	70
+i# Home		localhost	70
+iWelcome to my website, here you can find (almost) everything there is to know about me, Hailey Welsh.		localhost	70
+iOn this website I have:		localhost	70
+i- A Blog		localhost	70
+i- A Showcase		localhost	70
+i- Contact Details		localhost	70
+i- Miscellaneous Media		localhost	70
+i- Links to my Other Profiles, GitHub, and LinkedIn		localhost	70
+iFor future reference, this website can be accessed through the following methods:		localhost	70
+iWhy do I have so many? Plain and simple: I find them all interesting (perhaps not the offline, that's pretty boring), and also the newer stuff (Gemini and ENS) is just plain cool. But for real, accessibility, privacy, and the right to choose are all important to me. It's my own conscious undertaking to create an online presence for myself, and part of that (in my eyes) is ensuring all users can access it, regardless of their own tooling.		localhost	70
+iThat's also why this site is functionally static, i.e. JavaScript is only used for decorative elements that do not contribute to the deliverance of any information. If you're using a browser that has disabled JavaScript, this website will still work, and still look fabulous (which, let's be honest, it does!).		localhost	70
+iThis also means you can access this website using a TUI browser, such as `lynx`, if you wanted to.		localhost	70
+iAll the content is loaded immediately, no infinite scrolling, and all my posts are available to view as a page, or download in TXT and MD formats.		localhost	70
+iWith all that said, why don't you take a look at my [showcase](/pages/showcase.html) 😘.		localhost	70

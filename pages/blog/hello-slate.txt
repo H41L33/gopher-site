@@ -1,0 +1,7 @@
+iHello, Slate		localhost	70
+iMy first blog post using Slate v0.2.7!		localhost	70
+i2025-12-05 18:04		localhost	70
+i# Hello, Slate		localhost	70
+iThis is my first blog post using Slate v0.2.7! 🎉.		localhost	70
+iv0.2.7 is a massive update to Slate, that takes it from a simple transpiler to a full static site generator.		localhost	70
+iSlate can now create new sites, pages, and posts, all using relative links and metadata to keep track of where everything is; allowing some pretty cool features like IPFS!		localhost	70
