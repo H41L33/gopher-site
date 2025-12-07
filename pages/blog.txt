@@ -1,6 +1,6 @@
 iBlog		localhost	70
 iA collection of my posts and updates.		localhost	70
-i07/12/2025 18:43		localhost	70
+i07/12/2025 18:48		localhost	70
 i# Blog		localhost	70
 iA link directory to all my posts, available to view as page, download as plaintext or markdown. Each post is a copy of boilerplate HTML like the rest of this website, and has been written directly into HTML.		localhost	70
 iI have my own scripts to convert my content between HTML, Markdown, and TXT (now powered by [Slate](https://github.com/H41L33/slate) ✨).		localhost	70
