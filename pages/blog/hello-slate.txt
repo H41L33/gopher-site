@@ -1,6 +1,6 @@
 iHello, Slate		localhost	70
 iIntroducing Slate v0.2.7 - my custom static site generator evolved from a simple transpiler to a full SSG with metadata tracking, relative links, and IPFS support.		localhost	70
-i2025-12-05 22:22		localhost	70
+i2025-12-05 22:50		localhost	70
 i# Hello, Slate		localhost	70
 iThis is my first blog post using Slate v0.2.7! 🎉.		localhost	70
 iv0.2.7 is a massive update to Slate, that takes it from a simple transpiler to a full static site generator.		localhost	70
