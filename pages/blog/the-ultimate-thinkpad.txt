@@ -1,6 +1,6 @@
 iThe Ultimate Thinkpad		localhost	70
 iBuilding the ultimate Gentoo music ThinkPad from a T540P		localhost	70
-i2025-12-05 21:12		localhost	70
+i2025-12-05 21:16		localhost	70
 i# The Ultimate ThinkPad		localhost	70
 iSince my foray into Linux some 5 or 6 years ago, ThinkPads (specifically the big, the bulky, the **ancient** ThinkPads) have always eluded me. I started on my desktop gaming PC, which, if I remember correctly, rocked a Ryzen 5 3600 with 16GB of RAM, a 1TB SSD, and an RX 590 (later upgraded to an RX 6800XT—man, I loved that card).		localhost	70
 iAs my formal education progressed, the need for a mobile platform grew. I picked up an Acer Aspire laptop with what I think was a 5th gen Ryzen mobile chip. It was a solid machine and did what I needed it to do.		localhost	70
