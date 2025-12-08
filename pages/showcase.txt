@@ -1,0 +1,5 @@
+iShowcase		localhost	70
+iExplore Hayden's technical showcase featuring Slate, a custom multi-protocol static site generator. View project documentation, design tokens, and software engineering portfolio.		localhost	70
+i08/12/2025 14:29		localhost	70
+i# Showcase		localhost	70
+iView the [!MD-PAGE] [Slate Token Reference](slate-tokens.md) for a list of all supported featured and custom tokens available in Slate templates and Markdown content.		localhost	70

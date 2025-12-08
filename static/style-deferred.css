@@ -236,6 +236,7 @@
 .content-nav_header:hover {
     background-color: var(--accent-background);
     color: var(--accent);
+    border-radius: 0.5rem;
 }
 
 .content-link:hover,

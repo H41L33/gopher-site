@@ -1,8 +1,8 @@
 iWelcome		localhost	70
 i Hayden Ellis Clarke - Software developer, Linux enthusiast, and creator of Slate SSG. Explore my blog on web development, ThinkPad builds, Gentoo Linux, and multi-protocol web accessibility. Discover projects, showcase work, and contact details. 		localhost	70
-i08/12/2025 00:10		localhost	70
+i08/12/2025 14:29		localhost	70
 i# Home		localhost	70
-iWelcome to my website, here you can find (almost) everything there is to know about me, Hayden Ellis Clarke.		localhost	70
+iWelcome to my website, here you can find (almost) everything there is to know about me, Hayden.		localhost	70
 iOn this website I have:		localhost	70
 i- A Blog		localhost	70
 i- A Showcase		localhost	70
